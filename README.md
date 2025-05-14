@@ -24,7 +24,7 @@ Projeto prático de Front-end focado em Responsividade com CSS, onde reproduzimo
 
 Você pode visualizar o projeto publicado em:
 
-🔗 [https://wesleysantos0.github.io/responsividade-discord](https://wesleysantos0.github.io/responsividade-discord)
+🔗 [https://wesleysantos0.github.io/responsividade-discord](https://wesleysantos0.github.io/Discord/)
 
 ---
 

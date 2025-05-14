@@ -1,0 +1,126 @@
+
+/* Fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo header */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Imagens/header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    color: white;
+    padding: 50px 30px;
+}
+
+.header h1{
+    font-weight: 900;
+    
+}
+
+.header p{
+    margin-top: 30px;
+    
+}
+/* Estilo botões */
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    width: 381px;
+}
+
+ .button .btn{
+    width: 80%;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+/* Botao cor Branco */
+.button .btn.white{
+    background-color: aliceblue;
+    color: black;
+}
+/* Botao cor preto */
+.btn.black{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn.btn.white:hover{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn.black:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* Estilos Main */
+
+.bodyMain{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo {
+    width: 100%;
+    padding: 50px;
+}
+/* Efeito zebra */
+.conteudo:nth-of-type(odd){
+    background-color: #f6f6f6;
+}
+.conteudo:nth-of-type(even){
+    background-color: #ffffff;
+}
+
+
+.conteudo h2 {
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 140px;
+    background-color: #23272a;
+    color: #f6f6f6;
+    font-weight: bolder;
+}
+
+footer h1{
+    font-weight: 700;
+}
+
+.bi{
+    width: 40px;
+}
